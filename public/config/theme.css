@@ -1,0 +1,15 @@
+:root {
+  --primary: #00270000;
+  --primary-text: #00ff00;
+  --secondary: #00ff00;
+  --secondary-text: #000000;
+  --accent: #000000d8;
+  --accent-text: #5eff00;
+}
+
+#tsparticles {
+  position : absolute;
+  width:100%;
+  height:100%;
+  z-index:-1;
+}

@@ -149,9 +149,7 @@ function App() {
   });
 
   const generateImage = () => {
-    const artGen = require('./artGeneration.js')
-    artGen.buildSetup();
-    artGen.startCreating();
+
   }
 
   const claimNFTs = () => {

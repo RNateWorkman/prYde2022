@@ -181,7 +181,7 @@ function App() {
 
     // Call contract with tokenURI
     blockchain.smartContract.methods
-      .mintYoBuddy(toAddress, tokenURI)
+      .mintYoBuddy(toAddress, 'QmSjsrbfLE2Z9TopVQG2aDz7Lp8k7LA9ANZh4C8nggd3LK')
       .send({
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,

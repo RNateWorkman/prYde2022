@@ -115,6 +115,13 @@ export const StyledLink = styled.a`
   text-decoration: none;
 `;
 
+export const StyledDiscordLink = styled.a`
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 48px;
+`;
+
 function App() {
   const options = {
     preset: "seaAnemone",

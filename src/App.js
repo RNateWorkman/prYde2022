@@ -458,6 +458,9 @@ function App() {
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
+                <StyledLink target={"_blank"} href="https://discord.gg/cAedkcRkct">
+                  JOIN OUR DISCORD
+                </StyledLink>
         </s.Container>
       </s.Container>
     </s.Screen>

@@ -372,13 +372,7 @@ function App() {
                       </>
                     ) : null}
                     <s.SpacerSmall />
-                    <StyledButton onClick={(e) => {generate()}}
-                    >TEST ART GENERATION
-                    </StyledButton>
                     <s.SpacerSmall />
-                    <StyledButton
-                    >TEST IPFS UPLOAD
-                    </StyledButton>
                   </s.Container>
                 ) : (
                   <>

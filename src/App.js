@@ -454,20 +454,10 @@ function App() {
             }}
           >
             Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
+            {CONFIG.NETWORK.NAME} Mainnet), right contract address (0x1fcaf089ba097be04ced9b809eedccc8b662f695), on the right website (weknowparties.wtf). Please note:
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
-          </s.TextDescription>
         </s.Container>
       </s.Container>
     </s.Screen>
